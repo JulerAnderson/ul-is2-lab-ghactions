@@ -1,4 +1,4 @@
-from src.core import payload
+from core import payload
 
 def test_payload():
     data = payload()
