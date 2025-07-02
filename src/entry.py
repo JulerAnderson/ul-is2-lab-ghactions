@@ -1,5 +1,5 @@
 import json
-from src.core import payload
+from .core import payload
 
 def on_fetch(request):
     from workers import Response
