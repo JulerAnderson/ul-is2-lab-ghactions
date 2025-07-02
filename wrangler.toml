@@ -1,0 +1,5 @@
+name = "python-worker"          # nombre del worker
+main = "src/entry.py"
+account_id = "${CF_ACCOUNT_ID}"       # lo inyectamos desde el workflow
+compatibility_date = "2025-07-01"
+compatibility_flags = ["python_workers"]   #  flag obligatoria
